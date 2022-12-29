@@ -1,0 +1,82 @@
+.video-container{
+    height: 80vh;
+    background-color: white;
+    overflow: scroll;
+    scroll-snap-type: y mandatory;
+    scrollbar-width: none;
+    border-radius: 20px;
+}
+.videos{
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    position: relative;
+}
+.circular{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70%;
+    margin-left: 50%;
+}
+.fa{
+    position: absolute;
+    bottom: 6%;
+    left: 32%;
+}
+.fa h4{
+    color: white;
+    margin-top: 6%;
+    margin-left: 6%;
+}
+.video-container::-webkit-scrollbar{
+    display: none;
+}
+.icon-styling{
+    position: absolute;
+    bottom: 2.5%;
+    left: 33%;
+}
+.like{
+    cursor: pointer;
+    color:#e74c3c;
+}
+.unlike{
+    cursor: pointer;
+    color: white;
+}
+.unlike2{
+    cursor: pointer;
+    color: black;
+}
+.chat-styling{
+    position: absolute;
+    bottom: 2%;
+    left: 65%;
+    color: white;
+}
+.modal-container{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.video-modal{
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.video-modal video{
+    height:80vh ;
+    
+}
+.comment-modal{
+    height: 100%;
+    width: 50%;
+    margin-right: 2rem;
+}
+.card1{
+    height: 70vh;
+    padding: 1rem;
+}
